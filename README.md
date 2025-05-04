@@ -66,13 +66,13 @@ Ouvrez le fichier Excel. Vous devez activer l’onglet Développeur. Pour cela :
 
 	-Cliquez sur OK.
 
-3 - Modifier le code VBA
+3 - Modifier le code VBA.
 Rendez-vous dans l’onglet Développeur, puis cliquez sur Visual Basic à gauche.
 Une nouvelle fenêtre s’ouvre. Si le code ne s’affiche pas directement, double-cliquez sur Module1 dans le panneau de gauche.
 Remplacez le chemin "C:\Users\..." par le chemin complet de votre fichier .py.
 Enregistrez les modifications et fermez l’éditeur.
 
-4 - Modifier le script Python
+4 - Modifier le script Python.
 Ouvrez le fichier .py avec un éditeur de code.
 Je vous recommande Visual Studio Code, simple et efficace.
 Une fois le logiciel installé, ouvrez votre fichier .py.
