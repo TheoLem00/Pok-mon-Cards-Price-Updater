@@ -22,6 +22,8 @@ Open the Excel file. You will need to enable the Developer tab. To do this:
 
 	-Click OK.
 
+If you have issues to unblock the macro, go to your file, right click on it, Properties. At the bottom of the window, you will see a section called "Security" with a checkbox for "Unblock", check this box and click OK. 
+
 3 - Configure the VBA Script: 
 Go to the Developer tab and click on Visual Basic.
 In the new window, if it’s not already open, double-click on Module1 in the left panel to view the code.
@@ -99,6 +101,9 @@ Si le code n'apparaît pas, copier coller ceci :
     		MsgBox ("Don't forget to save the file"), vbExclamation
     
 	End Sub
+
+
+Si vous rencontrez des problèmes pour débloquer les macros, aller à l'emplacement de votre fichier, faite clique droit, Propriétés. Allez en bas de fenêtre, vous allez voir une section appelée "Sécurité" avec une case "Débloquer", cocher la case et appuyer sur Ok. 
  
 4 - Modifier le script Python : 
 Ouvrez le fichier .py avec un éditeur de code.
