@@ -50,12 +50,11 @@ Open your cmd and do "pip install "(Your path for the file packages.txt)". It sh
 Open the .py file using a code editor like Visual Studio Code (recommended for its ease of use).
 On line 28, replace the placeholder "C:\Users\..." with the full path to your Excel file.
 Save the file by clicking File > Save.
+Due to the download, the python file could be in restricted mode so you can't the updater will not work. You just have to click on "Yes, I trust the authors". Now the code can be executable
 
 6 - Using the Updater: 
 Go back to the Excel file.
-
 In the relevant columns, enter the name of the Pokémon card and paste the corresponding CardMarket.com link.
-
 I recommend to apply filters on the CardMarket link (e.g., language, minimum card condition) for more accurate pricing.
 
 7 - Run the Update: 
@@ -116,14 +115,12 @@ Je vous recommande Visual Studio Code, simple et efficace.
 Une fois le logiciel installé, ouvrez votre fichier .py.
 À la ligne 28, remplacez "C:\Users\..." par le chemin de votre fichier Excel.
 Enregistrez les modifications via Fichier > Enregistrer.
+Du au téléchargement du fichier, le code peut ne pas être executable. Vous devez passer en mode "Trust", vous devez simplement cliquer sur "Yes, I trust the authors" et maintenant votre code pourra être executable.
 
 6 - Utiliser l’outil : 
 Revenez dans le fichier Excel.
-
 Saisissez le nom du Pokémon dans la colonne prévue.
-
 Collez le lien correspondant sur CardMarket.com.
-
 Pour plus de précision, ajoutez des filtres sur CardMarket (langue, état minimum de la carte, etc.).
 
 7 - Lancer la mise à jour : 
