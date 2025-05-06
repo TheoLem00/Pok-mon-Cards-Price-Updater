@@ -27,6 +27,20 @@ Go to the Developer tab and click on Visual Basic.
 In the new window, if it’s not already open, double-click on Module1 in the left panel to view the code.
 Replace the placeholder path "C:\Users\..." with the actual path to your Python file.
 Save and close the editor.
+If the code doesn't appear, copy past this : 
+
+	Sub RunPythonScript()
+    		' Save the file
+    		ThisWorkbook.Save
+    
+    		' Run the python script
+      		' Insert your path to the python file
+    		Shell "python ""C:\Users\...""", vbNormalFocus
+    
+    		' Alert to remind you to save the file
+    		MsgBox ("Don't forget to save the file"), vbExclamation
+    
+	End Sub
 
 4 - Edit the Python Script: 
 Open the .py file using a code editor like Visual Studio Code (recommended for its ease of use).
@@ -71,7 +85,21 @@ Rendez-vous dans l’onglet Développeur, puis cliquez sur Visual Basic à gauch
 Une nouvelle fenêtre s’ouvre. Si le code ne s’affiche pas directement, double-cliquez sur Module1 dans le panneau de gauche.
 Remplacez le chemin "C:\Users\..." par le chemin complet de votre fichier .py.
 Enregistrez les modifications et fermez l’éditeur.
+Si le code n'apparaît pas, copier coller ceci : 
 
+	Sub RunPythonScript()
+    		' Save the file
+    		ThisWorkbook.Save
+    
+    		' Run the python script
+    		' Insert your path to the python file
+    		Shell "python ""C:\Users\...""", vbNormalFocus
+    
+    		' Alert to remind you to save the file
+    		MsgBox ("Don't forget to save the file"), vbExclamation
+    
+	End Sub
+ 
 4 - Modifier le script Python : 
 Ouvrez le fichier .py avec un éditeur de code.
 Je vous recommande Visual Studio Code, simple et efficace.
