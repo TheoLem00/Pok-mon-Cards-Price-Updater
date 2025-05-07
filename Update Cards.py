@@ -1,5 +1,6 @@
 import xlwings as xw
 import pandas as pd
+import time
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
@@ -43,6 +44,7 @@ for name, url in zip(df["Card"], df["URL"]):
     price = get_price_from_cardmarket(driver, url)
     print(price)
     price_list.append(price)
+    time.sleep(5)
 
 driver.quit()
 
